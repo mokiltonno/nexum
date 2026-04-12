@@ -15,10 +15,10 @@ export default function Hero() {
             Consulenza Strategica & Sostenibilità
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white mb-8 leading-[1.1] tracking-tight text-balance">
-            Una <span className="text-transparent bg-clip-text bg-gradient-to-r from-nexum-green to-nexum-light-green">connessione indispensabile.</span>
+            Una <span className="text-transparent bg-clip-text bg-gradient-to-r from-nexum-green to-nexum-light-green">connessione indispensabile</span>
           </h1>
           <p className="text-lg md:text-2xl mb-12 text-gray-200 font-light max-w-2xl mx-auto leading-relaxed text-balance">
-            Connettiamo il presente a un futuro sostenibile per un'Italia a zero emissioni.
+            Connettiamo il presente a un futuro sostenibile per un'Italia a zero emissioni
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <a href="#target" className="w-full sm:w-auto bg-nexum-green text-white px-9 py-4 rounded-full font-bold transition-all duration-300 hover:scale-105">

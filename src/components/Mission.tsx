@@ -4,17 +4,17 @@ export default function Mission() {
   const values = [
     {
       title: 'Integrità',
-      description: 'Operiamo con trasparenza per la sostenibilità ambientale ed economica dei partner.',
+      description: 'Operiamo con trasparenza per la sostenibilità ambientale ed economica dei partner',
       delay: 0
     },
     {
       title: 'Connessione',
-      description: 'Uniamo le comunità creando valore condiviso tra pubblico e privato.',
+      description: 'Uniamo le comunità creando valore condiviso tra pubblico e privato',
       delay: 0.1
     },
     {
       title: 'Innovazione',
-      description: 'Traduciamo tecnologie complesse in soluzioni concrete ed eleganti.',
+      description: 'Traduciamo tecnologie complesse in soluzioni concrete ed eleganti',
       delay: 0.2
     }
   ];
@@ -30,7 +30,7 @@ export default function Mission() {
           className="max-w-3xl mb-20"
         >
           <span className="text-nexum-green font-bold tracking-widest uppercase text-sm mb-3 block">Valori</span>
-          <h2 className="text-nexum-blue text-4xl md:text-5xl font-extrabold mb-6">Il Nesso tra Progresso e Territorio.</h2>
+          <h2 className="text-nexum-blue text-4xl md:text-5xl font-extrabold mb-6">Il Nesso tra Progresso e Territorio</h2>
           <div className="w-24 h-1 bg-nexum-green rounded-full"></div>
         </motion.div>
         

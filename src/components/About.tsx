@@ -12,7 +12,7 @@ export default function About() {
           className="max-w-4xl mx-auto text-center mb-20"
         >
           <span className="text-nexum-green font-bold tracking-widest uppercase text-sm mb-3 block">Il Team Nexum</span>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-nexum-blue mb-8">Chi siamo.</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-nexum-blue mb-8">Chi siamo</h2>
           <p className="text-xl text-gray-600 font-light leading-relaxed">
             Siamo un gruppo unito di <strong className="text-nexum-blue font-semibold">Consulenti Commerciali</strong> e <strong className="text-nexum-blue font-semibold">Sustainability Manager</strong>. La nostra profonda esperienza sul campo ci ha resi altamente specializzati nello sviluppo e nella gestione di progetti energetici strategici dedicati alla <strong className="text-nexum-blue font-semibold">Pubblica Amministrazione</strong> e alle <strong class="text-nexum-blue font-semibold">PMI</strong>. Uniamo competenza tecnica e visione di mercato per trasformare ogni obbligo di transizione ecologica in una reale opportunità di crescita.
           </p>
