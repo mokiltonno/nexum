@@ -38,7 +38,7 @@ export default function Projects() {
           transition={{ duration: 0.8 }}
           className="mb-20"
         >
-          <h2 className="text-nexum-blue text-4xl md:text-5xl font-extrabold">I nostri progetti.</h2>
+          <h2 className="text-nexum-blue text-4xl md:text-5xl font-extrabold">I nostri progetti</h2>
           <div className="w-24 h-1 bg-nexum-green rounded-full mt-6"></div>
         </motion.div>
         
