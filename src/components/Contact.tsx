@@ -1,5 +1,5 @@
 import { User, Phone, Mail } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion'; // Nota: se usi 'motion/react' assicurati che il pacchetto sia installato, altrimenti usa 'framer-motion'
 
 export default function Contact() {
   return (
@@ -47,14 +47,15 @@ export default function Contact() {
             </div>
 
             <div className="lg:w-1/2 w-full bg-white p-10 rounded-[2rem]">
-              {/* Configurazione Form per Netlify */}
+              {/* Form configurato per Netlify Forms */}
               <form 
                 name="contatti" 
                 method="POST" 
                 data-netlify="true" 
+                action="/"
                 className="space-y-6"
               >
-                {/* Obbligatorio per React su Netlify */}
+                {/* Campo nascosto fondamentale per React/Vite */}
                 <input type="hidden" name="form-name" value="contatti" />
                 
                 <input 
