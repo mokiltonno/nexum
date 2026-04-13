@@ -1,5 +1,5 @@
 import { User, Phone, Mail } from 'lucide-react';
-import { motion } from 'framer-motion'; // Nota: se usi 'motion/react' assicurati che il pacchetto sia installato, altrimenti usa 'framer-motion'
+import { motion } from 'framer-motion'; // 
 
 export default function Contact() {
   return (
