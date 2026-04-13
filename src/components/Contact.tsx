@@ -45,24 +45,44 @@ export default function Contact() {
                 </a>
               </div>
             </div>
+
             <div className="lg:w-1/2 w-full bg-white p-10 rounded-[2rem]">
-              <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+              {/* Configurazione Form per Netlify */}
+              <form 
+                name="contatti" 
+                method="POST" 
+                data-netlify="true" 
+                className="space-y-6"
+              >
+                {/* Obbligatorio per React su Netlify */}
+                <input type="hidden" name="form-name" value="contatti" />
+                
                 <input 
                   type="text" 
+                  name="nome"
                   placeholder="Nome" 
+                  required
                   className="w-full p-4 rounded-xl bg-gray-50 border border-gray-100 outline-none focus:border-nexum-green transition-all" 
                 />
                 <input 
                   type="email" 
+                  name="email"
                   placeholder="Email" 
+                  required
                   className="w-full p-4 rounded-xl bg-gray-50 border border-gray-100 outline-none focus:border-nexum-green transition-all" 
                 />
                 <textarea 
+                  name="messaggio"
                   placeholder="Messaggio" 
                   rows={4} 
+                  required
                   className="w-full p-4 rounded-xl bg-gray-50 border border-gray-100 outline-none focus:border-nexum-green transition-all"
                 ></textarea>
-                <button className="w-full py-4 bg-nexum-blue text-white font-bold rounded-xl hover:bg-nexum-green transition-all">
+                
+                <button 
+                  type="submit" 
+                  className="w-full py-4 bg-nexum-blue text-white font-bold rounded-xl hover:bg-nexum-green transition-all"
+                >
                   Invia Richiesta
                 </button>
               </form>
