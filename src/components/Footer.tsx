@@ -6,7 +6,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Nexum Consulting Tutti i diritti riservati
         </p>
         <p className="text-nexum-blue font-bold tracking-tight">
-          La connessione verso un'Italia a zero emissioni
+          Energie che connettono il territorio
         </p>
       </div>
     </footer>
