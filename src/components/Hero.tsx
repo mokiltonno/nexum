@@ -15,7 +15,7 @@ export default function Hero() {
             Consulenza Strategica & Sostenibilità
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white mb-8 leading-[1.1] tracking-tight text-balance">
-            Una <span className="text-transparent bg-clip-text bg-gradient-to-r from-nexum-green to-nexum-light-green">connessione indispensabile</span>
+            Energie <span className="text-transparent bg-clip-text bg-gradient-to-r from-nexum-green to-nexum-light-green">che connettono il territorio</span>
           </h1>
           <p className="text-lg md:text-2xl mb-12 text-gray-200 font-light max-w-2xl mx-auto leading-relaxed text-balance">
             Connettiamo il presente a un futuro sostenibile per un'Italia a zero emissioni
